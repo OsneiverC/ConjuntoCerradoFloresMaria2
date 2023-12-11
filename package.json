@@ -1,0 +1,16 @@
+{
+  "name": "conjunto-cerrado-flores-de-maria-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css-w": "npx tailwindcss -i ./src/css/input.css -o ./output.css --watch",
+    "build-css": "npx tailwindcss -i ./src/css/input.css -o ./output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
