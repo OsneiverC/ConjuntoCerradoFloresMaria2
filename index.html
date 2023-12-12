@@ -32,10 +32,11 @@
     </header>
     <!-- SECCION HERO O PRIMERA VISTA  -->
     <section class="bg-[url('./static/bg/bg2.jpg')] sm:h-[80vh] bg-cover bg-bottom p-4">
-
-        <nav class="flex items-center justify-around">
-            <img src="static/logos/logo.png" alt="" class="w-[10%] p-2 hidden sm:block">
-            <ul id="dropdownmenu" class="hidden sm:block">
+        <div class="flex items-center justify-around">
+            <img src="static/logos/logo.png" alt="" class="w-[20%] p-2 sm:block lg:w-[10%]">
+        <nav class=" hidden sm:flex">
+            
+            <ul id="dropdownmenu" class="flex">
                 <li class="relative w-auto hover:text-[#02519C]"><a href="index.html" class="p-4 font-bold">INICIO</a></li>
                 <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">CENTRO DE
                         GESTION <i class="fa-solid fa-angle-down"></i></a>
@@ -63,6 +64,8 @@
                     </ul>
                 </li>
         </nav>
+        </div>
+        
 
         <div>
             <h1 class="text-[40px] ml-[10%] mt-[8%]  font-bold">FLORES DE MARIA 2</h1>
@@ -82,18 +85,18 @@
     <!-- SECCION PRINCIPAL BLOQUES  -->
     <section>
 
-        <article class="flex-col sm:flex justify-center gap-4 p-5 my-[40px] ">
-            <div class="sm:w-[25%] rounded bg-[sky] shadow-md hover:shadow-2xl">
+        <article class="flex flex-col lg:flex-row justify-center gap-4 p-5 my-[40px] ">
+            <div class="lg:w-[25%] rounded bg-[sky] shadow-md hover:shadow-2xl">
                 <a href="./src/comunidad.html" class="p-4">
-                    <figure class="text-center"><i class="fa-solid fa-people-group text-[200px] text-[#4C9EEB]"></i></figure>
+                    <figure class="text-center"><i class="fa-solid fa-people-group text-[1000%] text-[#4C9EEB]"></i></figure>
                     <h5 class="text-[2rem] font-bold text-center">COMUNIDAD</h5>
                     <p class="text-center">En este espacio se pueden encontrar anuncios de interés para los residentes de la comunidad Flores de María 2</p>
                 </a>
             </div>
     
-            <div class="sm:w-[25%] shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl">
+            <div class="lg:w-[25%] shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl">
                 <a class="p-4 rounded" href="./src/zonapay.html">
-                    <figure class="text-center"><i class="fa-solid fa-file-invoice-dollar text-[200px]"></i></figure>
+                    <figure class="text-center"><i class="fa-solid fa-file-invoice-dollar text-[1000%]"></i></figure>
                     <h5 class="text-[2rem] font-bold text-center">ZONA DE PAGOS</h5>
                     <p class="text-center">Según el Artículo 29 de la Ley 675 de 2001, en propiedad horizontal, los copropietarios están
                         obligados a contribuir a las expensas necesarias para la administración y servicios comunes
@@ -101,9 +104,9 @@
                 </a>
             </div>
     
-            <div class="sm:w-[25%] rounded shadow-md hover:shadow-2xl">
+            <div class="lg:w-[25%] rounded shadow-md hover:shadow-2xl">
                 <a href="./src/documentos.html" class="p-4">
-                    <figure class="text-center"><i class="fa-solid fa-file-lines text-[200px] text-[#4C9EEB]"></i></figure>
+                    <figure class="text-center"><i class="fa-solid fa-file-lines text-[1000%] text-[#4C9EEB]"></i></figure>
                     <h5 class="text-[2rem] font-bold text-center">SOLICITUDES</h5>
                     <p class="text-center">
                         Este apartado presenta diversos formatos para cubrir solicitudes en la copropiedad, garantizando
@@ -116,23 +119,24 @@
     <!-- SECCION DE PRIMERA MANO  -->
     <section>
         <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">De Primera Mano</h5>
-       <article class="flex-col sm:flex justify-center gap-4 p-5">
-        <div class="sm:w-[25%] rounded bg-[sky]  shadow-md text-[#4C9EEB] hover:shadow-2xl">
+
+       <article class="flex flex-col lg:flex-row justify-center gap-4 p-5">
+        <div class="lg:w-[25%] rounded bg-[sky] shadow-md text-[#4C9EEB] hover:shadow-2xl">
             <a class="p-4" href="https://drive.google.com/file/d/15Rxx7eFiGIspXImi-P-7H_8EyDTZIAaq/view?usp=sharing" target="_blank">
                 <figure class="text-center"><i class="fa-solid fa-book-atlas text-[200px]"></i></figure>
                 <h5 class="text-[2rem] font-bold text-center">Reglamento De Propiedad Horizontal</h5>
             </a>
         </div>
 
-        <div class="sm:w-[25%] rounded bg-[sky] shadow-md text-[#4C9EEB] hover:shadow-2xl relative">
+        <div class="lg:w-[25%] rounded bg-[sky] shadow-md text-[#4C9EEB] hover:shadow-2xl relative">
             <a href="" class="p-4">
-                <img src="https://4.bp.blogspot.com/_-1zcvxqRcl8/S6bDAfpi-PI/AAAAAAAABOA/80fmZWZvmPc/s320/proximamente-flash.gif" alt="" class="absolute w-[80%]">
+                <img src="https://4.bp.blogspot.com/_-1zcvxqRcl8/S6bDAfpi-PI/AAAAAAAABOA/80fmZWZvmPc/s320/proximamente-flash.gif" alt="" class="absolute w-[80%] hidden">
                 <figure class="text-center"><i class="fa-solid fa-face-laugh-beam  text-[200px]"></i></figure>
                 <h5 class="text-[2rem] font-bold text-center">Manual De Convivencia</h5>
             </a>
         </div>
 
-        <div class="sm:w-[25%] rounded shadow-md text-[#4C9EEB] hover:shadow-2xl">
+        <div class="lg:w-[25%] rounded shadow-md text-[#4C9EEB] hover:shadow-2xl">
             <a href="Circulares.html" class="p-4 ">
                 <figure class="text-center"><i class="fa-solid fa-bullhorn text-[200px]"></i></figure>
                 <h5 class="text-[2rem] font-bold text-center">Circulares</h5>
@@ -155,7 +159,7 @@
                 <li>La entrada del conjunto está justo a mano derecha de la parroquia.</li>
             </ol>
         </div>
-        <div class="p-2 flex-col sm:flex gap-4">
+        <div class="p-2 flex flex-col sm:flex-row gap-4">
             <figure class="w-[100%] sm:w-[50%]">
                 <a href="https://orbeconstrucciones.com.co/wp-content/uploads/2020/01/Book-SenderosMesa-de-trabajo-6@72x-80-1024x697.jpg" data-lightbox="models" data-title="Mapa Ubicacion"><img src="https://orbeconstrucciones.com.co/wp-content/uploads/2020/01/Book-SenderosMesa-de-trabajo-6@72x-80-1024x697.jpg" alt=""></a>    
             </figure>
@@ -174,7 +178,7 @@
     </section>
 
     <!-- FOOTER O PIE DE PAGUINA  -->
-    <footer class="mt-[10%] hidden sm:block">
+    <footer class="mt-[10%] hidden lg:block">
 
         <div class="p-[50px] flex">
 
@@ -212,7 +216,7 @@
 
     </footer>
 
-    <div class="text-center text-white bg-[#4C9EEB] py-5">
+    <div class="text-center sm:text-sm text-white bg-[#4C9EEB] py-5 px-2">
         <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
     </div>
     
