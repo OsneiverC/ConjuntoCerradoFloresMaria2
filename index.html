@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flores de Maria 2</title>
     <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="./src/css/lightbox.css">
     <link rel="icon" href="static/public/logo.ico">
 
-
-
-    <!-- Metas  -->
+    <!-- META DE POSICIONAMIENTO  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Conjunto Cerrado, Flores de María 2, la meza, Don alberto">
@@ -24,19 +22,20 @@
 
 </head>
 <body class="font-['system-ui']">
+
     <!-- HEADER O ENCABEZADO  -->
     <header class="bg-[#02519C] p-2 flex justify-around">
         <a href="https://web-conjuntos.jelpit.com/zona-publica-pagos?_ga=2.123618891.1946377582.1700225843-419690911.1698957252"
            target="_blank" class="py-1 px-3 text-white rounded-full bg-[#4C9EEB]">$ PAGAR ADMINISTRACION</a>
-        <a href="https://wa.me/573142915857" target="_blank" class="py-1 px-3 text-white rounded-full bg-[#4C9EEB] "> <i
+        <a href="https://wa.me/573142915857" target="_blank" class="py-1 px-3 text-white rounded-full bg-[#4C9EEB] hidden sm:block"> <i
                 class="fa-brands fa-whatsapp"></i> ESCRIBENOS 314 291 5857</a>
     </header>
     <!-- SECCION HERO O PRIMERA VISTA  -->
-    <section class="bg-[url('./static/bg/bg2.jpg')] h-[80vh] bg-cover bg-bottom p-4">
+    <section class="bg-[url('./static/bg/bg2.jpg')] sm:h-[80vh] bg-cover bg-bottom p-4">
 
         <nav class="flex items-center justify-around">
-            <img src="static/logos/logo.png" alt="" class="w-[10%] p-2">
-            <ul id="dropdownmenu" class="flex">
+            <img src="static/logos/logo.png" alt="" class="w-[10%] p-2 hidden sm:block">
+            <ul id="dropdownmenu" class="hidden sm:block">
                 <li class="relative w-auto hover:text-[#02519C]"><a href="index.html" class="p-4 font-bold">INICIO</a></li>
                 <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">CENTRO DE
                         GESTION <i class="fa-solid fa-angle-down"></i></a>
@@ -73,55 +72,59 @@
     </section>
     <!-- DESCRIPCION DEL CONJUNTO -->
     <section>
-        <div class="px-[10%]">
-            <h5 class="font-bold text-center py-3 text-[2rem] text-[#4C9EEB]">Descripcion Del Conjunto Cerrado </h5>
-            <p class="text-[18px]">Flores de María 2 es un proyecto de casas y apartamentos en conjunto cerrado, que busca proporcionar a sus habitantes bienestar, seguridad y comodidad, mediante la creación de ambientes urbanos amplios, agradables y de fácil accesibilidad. El proyecto se conforma de casas unifamiliares y tres bloques de apartamentos de 4 pisos sin ascensor. Contará con dos salones sociales, piscina para adultos, piscina para niños, juegos infantiles, gimnasio biosaludable y cancha múltiple.</p>
-        </div>
+        <article>
+            <div class="px-[10%]">
+                <h5 class="font-bold text-center py-3 text-[2rem] text-[#4C9EEB]">Descripcion Del Conjunto Cerrado </h5>
+                <p class="text-[18px]">Flores de María 2 es un proyecto de casas y apartamentos en conjunto cerrado, que busca proporcionar a sus habitantes bienestar, seguridad y comodidad, mediante la creación de ambientes urbanos amplios, agradables y de fácil accesibilidad. El proyecto se conforma de casas unifamiliares y tres bloques de apartamentos de 4 pisos sin ascensor. Contará con dos salones sociales, piscina para adultos, piscina para niños, juegos infantiles, gimnasio biosaludable y cancha múltiple.</p>
+            </div>
+        </article>
     </section>
     <!-- SECCION PRINCIPAL BLOQUES  -->
-    <section class="flex justify-center gap-4 p-5 my-[40px] ">
+    <section>
 
-        <div class="w-[25%] rounded bg-[sky] shadow-md hover:shadow-2xl">
-            <a href="./src/comunidad.html" class="p-4">
-                <figure class="text-center"><i class="fa-solid fa-people-group text-[200px] text-[#4C9EEB]"></i></figure>
-                <h5 class="text-[2rem] font-bold text-center">COMUNIDAD</h5>
-                <p class="text-center">En este espacio se pueden encontrar anuncios de interés para los residentes de la comunidad Flores de María 2</p>
-            </a>
-        </div>
-
-        <div class="w-[25%] shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl">
-            <a class="p-4 rounded" href="./src/zonapay.html">
-                <figure class="text-center"><i class="fa-solid fa-file-invoice-dollar text-[200px]"></i></figure>
-                <h5 class="text-[2rem] font-bold text-center">ZONA DE PAGOS</h5>
-                <p class="text-center">Según el Artículo 29 de la Ley 675 de 2001, en propiedad horizontal, los copropietarios están
-                    obligados a contribuir a las expensas necesarias para la administración y servicios comunes
-                    esenciales.</p>
-            </a>
-        </div>
-
-        <div class="w-[25%] rounded shadow-md hover:shadow-2xl">
-            <a href="./src/documentos.html" class="p-4">
-                <figure class="text-center"><i class="fa-solid fa-file-lines text-[200px] text-[#4C9EEB]"></i></figure>
-                <h5 class="text-[2rem] font-bold text-center">SOLICITUDES</h5>
-                <p class="text-center">
-                    Este apartado presenta diversos formatos para cubrir solicitudes en la copropiedad, garantizando
-                    eficiencia y cumplimiento de normativas.</p>
-            </a>
-        </div>
+        <article class="flex-col sm:flex justify-center gap-4 p-5 my-[40px] ">
+            <div class="sm:w-[25%] rounded bg-[sky] shadow-md hover:shadow-2xl">
+                <a href="./src/comunidad.html" class="p-4">
+                    <figure class="text-center"><i class="fa-solid fa-people-group text-[200px] text-[#4C9EEB]"></i></figure>
+                    <h5 class="text-[2rem] font-bold text-center">COMUNIDAD</h5>
+                    <p class="text-center">En este espacio se pueden encontrar anuncios de interés para los residentes de la comunidad Flores de María 2</p>
+                </a>
+            </div>
+    
+            <div class="sm:w-[25%] shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl">
+                <a class="p-4 rounded" href="./src/zonapay.html">
+                    <figure class="text-center"><i class="fa-solid fa-file-invoice-dollar text-[200px]"></i></figure>
+                    <h5 class="text-[2rem] font-bold text-center">ZONA DE PAGOS</h5>
+                    <p class="text-center">Según el Artículo 29 de la Ley 675 de 2001, en propiedad horizontal, los copropietarios están
+                        obligados a contribuir a las expensas necesarias para la administración y servicios comunes
+                        esenciales.</p>
+                </a>
+            </div>
+    
+            <div class="sm:w-[25%] rounded shadow-md hover:shadow-2xl">
+                <a href="./src/documentos.html" class="p-4">
+                    <figure class="text-center"><i class="fa-solid fa-file-lines text-[200px] text-[#4C9EEB]"></i></figure>
+                    <h5 class="text-[2rem] font-bold text-center">SOLICITUDES</h5>
+                    <p class="text-center">
+                        Este apartado presenta diversos formatos para cubrir solicitudes en la copropiedad, garantizando
+                        eficiencia y cumplimiento de normativas.</p>
+                </a>
+            </div>
+        </article>
 
     </section>
     <!-- SECCION DE PRIMERA MANO  -->
-    <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">De Primera Mano</h5>
-    <section class="flex justify-center gap-4 p-5">
-
-        <div class="w-[25%] rounded bg-[sky]  shadow-md text-[#4C9EEB] hover:shadow-2xl">
+    <section>
+        <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">De Primera Mano</h5>
+       <article class="flex-col sm:flex justify-center gap-4 p-5">
+        <div class="sm:w-[25%] rounded bg-[sky]  shadow-md text-[#4C9EEB] hover:shadow-2xl">
             <a class="p-4" href="https://drive.google.com/file/d/15Rxx7eFiGIspXImi-P-7H_8EyDTZIAaq/view?usp=sharing" target="_blank">
                 <figure class="text-center"><i class="fa-solid fa-book-atlas text-[200px]"></i></figure>
                 <h5 class="text-[2rem] font-bold text-center">Reglamento De Propiedad Horizontal</h5>
             </a>
         </div>
 
-        <div class="w-[25%] rounded bg-[sky] shadow-md text-[#4C9EEB] hover:shadow-2xl relative">
+        <div class="sm:w-[25%] rounded bg-[sky] shadow-md text-[#4C9EEB] hover:shadow-2xl relative">
             <a href="" class="p-4">
                 <img src="https://4.bp.blogspot.com/_-1zcvxqRcl8/S6bDAfpi-PI/AAAAAAAABOA/80fmZWZvmPc/s320/proximamente-flash.gif" alt="" class="absolute w-[80%]">
                 <figure class="text-center"><i class="fa-solid fa-face-laugh-beam  text-[200px]"></i></figure>
@@ -129,19 +132,20 @@
             </a>
         </div>
 
-        <div class="w-[25%] rounded shadow-md text-[#4C9EEB] hover:shadow-2xl">
+        <div class="sm:w-[25%] rounded shadow-md text-[#4C9EEB] hover:shadow-2xl">
             <a href="Circulares.html" class="p-4 ">
                 <figure class="text-center"><i class="fa-solid fa-bullhorn text-[200px]"></i></figure>
                 <h5 class="text-[2rem] font-bold text-center">Circulares</h5>
                 <br><br>
             </a>
         </div>
-
+       </article>
     </section>
 
     <!--SECCION DE UBICACION DEL CONJUNTO -->
-    <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">Ubicacion <i class="fa-solid fa-location-dot"></i></h5>
-    <section class="p-5 justify-center px-[10%]">
+    <section>
+        <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">Ubicacion <i class="fa-solid fa-location-dot"></i></h5>
+       <article class="p-5 justify-center px-[10%]">
         <div class="">
             <p class="text-[18px]">Para llegar al conjunto <b>FLORES DE MARIA 2</b>, que esta ubicado en la <b>Carrera 43 # 16 BIS – 146 en Valledupar</b>, Colombia, siga estas instrucciones:</p>
             <ol class="list-decimal p-4">
@@ -151,24 +155,26 @@
                 <li>La entrada del conjunto está justo a mano derecha de la parroquia.</li>
             </ol>
         </div>
-        <div class="p-5 flex gap-4">
-            <figure class="w-[50%]">
+        <div class="p-2 flex-col sm:flex gap-4">
+            <figure class="w-[100%] sm:w-[50%]">
                 <a href="https://orbeconstrucciones.com.co/wp-content/uploads/2020/01/Book-SenderosMesa-de-trabajo-6@72x-80-1024x697.jpg" data-lightbox="models" data-title="Mapa Ubicacion"><img src="https://orbeconstrucciones.com.co/wp-content/uploads/2020/01/Book-SenderosMesa-de-trabajo-6@72x-80-1024x697.jpg" alt=""></a>    
             </figure>
-            <iframe class="w-[50%]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.567789026741!2d-73.28619322504717!3d10.455830689674082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8ab78a4899928b%3A0x933228745b1286bb!2sConjunto%20Cerrado%20Flores%20de%20Maria%202!5e0!3m2!1ses!2sco!4v1701205747983!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="w-[100%] sm:w-[50%]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.567789026741!2d-73.28619322504717!3d10.455830689674082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8ab78a4899928b%3A0x933228745b1286bb!2sConjunto%20Cerrado%20Flores%20de%20Maria%202!5e0!3m2!1ses!2sco!4v1701205747983!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+       </article>
     </section>
 
-    <section class="flex flex-col justify-center">
-        <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">Recorre Flores de María 2 <i class="fa-solid fa-camera-retro"></i></h5>
+    <section>
+        <article class="flex flex-col justify-center p-2">
+            <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">Recorre Flores de María 2 <i class="fa-solid fa-camera-retro"></i></h5>
         <div class="flex justify-center">
             <iframe width="1100" height="515" src="https://www.youtube.com/embed/ZPFdOzjtGPs?si=SvlRgHt-y_cjW4eC&amp;start=40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        
+        </article>
     </section>
 
     <!-- FOOTER O PIE DE PAGUINA  -->
-    <footer class="mt-[10%]">
+    <footer class="mt-[10%] hidden sm:block">
 
         <div class="p-[50px] flex">
 
@@ -193,8 +199,7 @@
                 <h4 class="font-bold text-[25px]">CONTACTENOS</h4>
                 <ul>
                     <li><a href="" class="text-[18px]"><i class="fa-solid fa-phone"></i> 314 291 5857</a></li>
-                    <li><a href="" class="text-[18px]"><i class="fa-solid fa-envelope"></i>
-                            conjuntocerradofloresdemaria2@gmail.com</a></li>
+                    <li><a href="" class="text-[18px]"><i class="fa-solid fa-envelope"></i> conjuntocerradofloresdemaria2@gmail.com</a></li>
                     <li><a href="" class="text-[18px]"><i class="fa-solid fa-phone"></i> Porteria: 317 279 4002</a></li>
                     <li><a href="" class="text-[18px]"><i class="fa-solid fa-location-dot"></i> Carrera 43 # 16 bis -146</a>
                     </li>
@@ -203,11 +208,13 @@
 
         </div>
 
-        <div class="text-center text-white bg-[#4C9EEB] py-5">
-            <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
-        </div>
+        
 
     </footer>
+
+    <div class="text-center text-white bg-[#4C9EEB] py-5">
+        <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
+    </div>
     
     <!-- SCRIPTS  -->
     <script src="./src/js/vendor/lightbox-plus-jquery.min.js"></script>

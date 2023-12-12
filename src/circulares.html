@@ -4,84 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentos</title>
-    <link rel="icon" href="static/public/logo.ico">
+    <link rel="icon" href="../static/logos/logo.ico">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="flex items-center justify-around">
-        <img src="static/logos/logo.png" alt="" class="w-[10%] p-2">
-        <ul id="dropdownmenu" class="flex">
-            <li class="relative w-auto hover:text-[#02519C]"><a href="index.html" class="p-4 font-bold">INICIO</a></li>
-            <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">CENTRO DE
-                    GESTION <i class="fa-solid fa-angle-down"></i></a>
-                <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/comunidad.html">COMUNIDAD</a></li>
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/convocatorias.html">CONVOCATORIAS</a></li>
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/zonapay.html">ZONA DE PAGOS</a></li>
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/documentos.html">SOLICITUDES</a></li>
-                </ul>
-            </li>
+    
+    <header>
+        <nav class="flex items-center justify-around">
+            <img src="../static/logos/logo.png" alt="" class="w-[10%] p-2">
+            <ul id="dropdownmenu" class="flex">
+                <li class="relative w-auto hover:text-[#02519C]"><a href="../index.html" class="p-4 font-bold">INICIO</a></li>
+                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">CENTRO DE
+                        GESTION <i class="fa-solid fa-angle-down"></i></a>
+                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./comunidad.html">COMUNIDAD</a></li>
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./convocatorias.html">CONVOCATORIAS</a></li>
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./zonapay.html">ZONA DE PAGOS</a></li>
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./documentos.html">SOLICITUDES</a></li>
+                    </ul>
+                </li>
+    
+                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href=""
+                        class="p-4 font-bold">SERVICIOS <i class="fa-solid fa-angle-down"></i></a>
+                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./emprendimientos.html">EMPRENDIMIENTOS</a></li>
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./transporte.html">TRANSPORTE</a></li>
+                    </ul>
+                </li>
+    
+                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href=""
+                        class="p-4 font-bold">ACTIVIDADES <i class="fa-solid fa-angle-down"></i></a>
+                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./aerobicos.html">CLASES AEROBICAS</a></li>
+                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./futbol.html">FÚTBOL</a></li>
+                    </ul>
+                </li>
+        </nav>
+    </header>
 
-            <li class="relative w-auto hover:text-[#02519C] group/drop"><a href=""
-                    class="p-4 font-bold">SERVICIOS <i class="fa-solid fa-angle-down"></i></a>
-                <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/emprendimientos.html">EMPRENDIMIENTOS</a></li>
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/transporte.html">TRANSPORTE</a></li>
-                </ul>
-            </li>
-
-            <li class="relative w-auto hover:text-[#02519C] group/drop"><a href=""
-                    class="p-4 font-bold">ACTIVIDADES <i class="fa-solid fa-angle-down"></i></a>
-                <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/aerobicos.html">CLASES AEROBICAS</a></li>
-                    <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./src/futbol.html">FÚTBOL</a></li>
-                </ul>
-            </li>
-    </nav>
-
-
-        <section class="px-[10%] mt-[8%]">
-            <h4 class="font-bold text-[30px] text-center">Circulares</h4>
-            <p class="text-[20px]">En esta página usted podrá descargar las Circulares de importancia para los residentes y/o propietarios del conjunto. Para poder leerlos una vez descargados usted deberá tener instalado en su computador el programa Abode Reader u otro lector de archivos pdf.</p>            
-        </section>
-
-        <div class="flex justify-center items-center gap-4 p-5 my-[40px] mx-[10%] flex-wrap">
-            
-            <a href="https://drive.google.com/file/d/1m2nhNL8HGS0uUzxBmVfxA6MQfycCKqIu/view?usp=sharing" target="_blank" class="w-[40%]">
-                <div class="p-4 rounded shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl flex items-center">
-                <div>
-                    <figure class="text-center"><i class="fa-solid fa-file-pdf text-[140px]"></i></figure>
-                    <h5 class="text-[1rem] font-bold text-center">CIRCULAR 006</h5>
-                </div>
+    <section>
+        <article>
+            <div class="px-[10%] mt-[8%]">
+                <h4 class="font-bold text-[30px] text-center">Circulares</h4>
+                <p class="text-[20px]">En esta página usted podrá descargar las Circulares de importancia para los residentes y/o propietarios del conjunto. Para poder leerlos una vez descargados usted deberá tener instalado en su computador el programa Abode Reader u otro lector de archivos pdf.</p>            
+            </div>
+    
+            <div class="flex justify-center items-center gap-4 p-5 my-[40px] mx-[10%] flex-wrap">
                 
-                <p class="p-2">Este PDF contiene recomendaciones y recordatorios de normas de convivencia para los propietarios y residentes del Conjunto Cerrado Flores de María II, así como información sobre horarios de uso de áreas comunes y cambios en el cronograma de actividades de aseo.</p>
-                </div>
-            </a>
+                <a href="https://drive.google.com/file/d/1m2nhNL8HGS0uUzxBmVfxA6MQfycCKqIu/view?usp=sharing" target="_blank" class="w-[40%]">
+                    <div class="p-4 rounded shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl flex items-center">
+                    <div>
+                        <figure class="text-center"><i class="fa-solid fa-file-pdf text-[140px]"></i></figure>
+                        <h5 class="text-[1rem] font-bold text-center">CIRCULAR 006</h5>
+                    </div>
+                    
+                    <p class="p-2">Este PDF contiene recomendaciones y recordatorios de normas de convivencia para los propietarios y residentes del Conjunto Cerrado Flores de María II, así como información sobre horarios de uso de áreas comunes y cambios en el cronograma de actividades de aseo.</p>
+                    </div>
+                </a>
+    
+                <a href="https://drive.google.com/file/d/1UxkeaVNmY43xkn-wvgp6Eze5az5zOlve/view?usp=sharing " target="_blank" class="w-[40%]">
+                    <div class="p-4 rounded shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl flex items-center">
+                    <div>
+                        <figure class="text-center"><i class="fa-solid fa-file-pdf text-[140px]"></i></figure>
+                        <h5 class="text-[1rem] font-bold text-center">CIRCULAR 007</h5>
+                    </div>
+                    
+                    <p class="p-2">Este PDF contiene recomendaciones y recordatorios de normas de convivencia para los propietarios y residentes del Conjunto Cerrado Flores de María II, así como información sobre horarios de uso de áreas comunes y cambios en el cronograma de actividades de aseo.</p>
+                    </div>
+                </a>
+    
+                <a href="https://drive.google.com/file/d/1EFaFHyyqlkZytH0eUpDeHitkbUFd_cKr/view?usp=sharing" target="_blank" class="w-[40%]">
+                    <div class="p-4 rounded shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl flex items-center">
+                    <div>
+                        <figure class="text-center"><i class="fa-solid fa-file-pdf text-[140px]"></i></figure>
+                        <h5 class="text-[1rem] font-bold text-center">CIRCULAR 008</h5>
+                    </div>
+                    
+                    <p class="p-2">Este PDF contiene recomendaciones y recordatorios de normas de convivencia para los propietarios y residentes del Conjunto Cerrado Flores de María II, así como información sobre horarios de uso de áreas comunes y cambios en el cronograma de actividades de aseo.</p>
+                    </div>
+                </a>
 
-            <a href="https://drive.google.com/file/d/1UxkeaVNmY43xkn-wvgp6Eze5az5zOlve/view?usp=sharing " target="_blank" class="w-[40%]">
-                <div class="p-4 rounded shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl flex items-center">
-                <div>
-                    <figure class="text-center"><i class="fa-solid fa-file-pdf text-[140px]"></i></figure>
-                    <h5 class="text-[1rem] font-bold text-center">CIRCULAR 007</h5>
-                </div>
-                
-                <p class="p-2">Este PDF contiene recomendaciones y recordatorios de normas de convivencia para los propietarios y residentes del Conjunto Cerrado Flores de María II, así como información sobre horarios de uso de áreas comunes y cambios en el cronograma de actividades de aseo.</p>
-                </div>
-            </a>
-
-            <a href="https://drive.google.com/file/d/1EFaFHyyqlkZytH0eUpDeHitkbUFd_cKr/view?usp=sharing" target="_blank" class="w-[40%]">
-                <div class="p-4 rounded shadow-md bg-[#4C9EEB] text-[white] hover:shadow-2xl flex items-center">
-                <div>
-                    <figure class="text-center"><i class="fa-solid fa-file-pdf text-[140px]"></i></figure>
-                    <h5 class="text-[1rem] font-bold text-center">CIRCULAR 008</h5>
-                </div>
-                
-                <p class="p-2">Este PDF contiene recomendaciones y recordatorios de normas de convivencia para los propietarios y residentes del Conjunto Cerrado Flores de María II, así como información sobre horarios de uso de áreas comunes y cambios en el cronograma de actividades de aseo.</p>
-                </div>
-            </a>
-
-
-        </div>
+            </div>
+        </article>
+    </section>
+    
         <footer class="text-center text-white bg-[#4C9EEB] py-5">
             <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
         </footer>
