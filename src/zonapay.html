@@ -12,36 +12,52 @@
 <body>
 
     <header>
-        <nav class="flex items-center justify-around">
-            <img src="../static/logos/logo.png" alt="" class="w-[10%] p-2">
-            <ul id="dropdownmenu" class="flex">
-                <li class="relative w-auto hover:text-[#02519C]"><a href="../index.html" class="p-4 font-bold">INICIO</a></li>
-                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">CENTRO DE
-                        GESTION <i class="fa-solid fa-angle-down"></i></a>
-                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./comunidad.html">COMUNIDAD</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./convocatorias.html">CONVOCATORIAS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./zonapay.html">ZONA DE PAGOS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./documentos.html">SOLICITUDES</a></li>
-                    </ul>
-                </li>
-    
-                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href=""
-                        class="p-4 font-bold">SERVICIOS <i class="fa-solid fa-angle-down"></i></a>
-                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./emprendimientos.html">EMPRENDIMIENTOS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./transporte.html">TRANSPORTE</a></li>
-                    </ul>
-                </li>
-    
-                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href=""
-                        class="p-4 font-bold">ACTIVIDADES <i class="fa-solid fa-angle-down"></i></a>
-                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./aerobicos.html">CLASES AEROBICAS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a href="./futbol.html">FÚTBOL</a></li>
-                    </ul>
-                </li>
-        </nav>
+        <div class="flex items-center justify-between sm:justify-around p-4">
+            <img src="../static/logos/logo.png" alt="" class="w-[20%] p-2 sm:block lg:w-[10%]">
+            <nav class="sm:flex sm:relative absolute hidden right-0 top-0 h-screen sm:h-0 p-4 bg-[#2f2f2f] sm:bg-transparent">
+
+                <ul id="dropdownmenu" class="menu text-right flex-col sm:flex-row sm:flex">
+                    <a href="#" class="cerrar text-right sm:hidden"><i class="fa-solid fa-x"></i></a>
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] py-4 sm:p-0"><a href="../index.html"
+                            class="p-4 font-bold">INICIO</a></li>
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] group/drop mb-3"><a href="#" class="p-4 font-bold">CENTRO
+                            DE
+                            GESTION <i class="fa-solid fa-angle-down"></i></a>
+                        <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block">
+                            <li class="py-1 text-white sm:text-black  px-2 hover:text-[#02519C]"><a
+                                    href="../src/comunidad.html">COMUNIDAD</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/convocatorias.html">CONVOCATORIAS</a></li>
+                            <li class="py-1 text-bwhitepx-2 hover:text-[#02519C]"><a
+                                    href="../src/zonapay.html">ZONA DE PAGOS</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/documentos.html">SOLICITUDES</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] group/drop mb-3"><a href="#"
+                            class="p-4 font-bold ">SERVICIOS <i class="fa-solid fa-angle-down"></i></a>
+                        <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block text-right">
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/emprendimientos.html">EMPRENDIMIENTOS</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/transporte.html">TRANSPORTE</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] group/drop mb-3"><a href="#"
+                            class="p-4 font-bold">ACTIVIDADES <i class="fa-solid fa-angle-down"></i></a>
+                        <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block text-right">
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/aerobicos.html">CLASES AEROBICAS</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/futbol.html">FÚTBOL</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="abrir sm:hidden">Menu <i class="fa-solid fa-bars"></i></figure>
+        </div>
     </header>
 
     <section class="px-[15%] mt-[8%]">
@@ -51,9 +67,9 @@
             servicios públicos en el Conjunto Cerrado Flores de Maria 2</p>
 
 
-        <div class="flex justify-center gap-4">
+        <div class="flex flex-col sm:flex-row  justify-center gap-4">
 
-            <div class="w-[40%] p-4 shadow text-center rounded hover:shadow-2xl">
+            <div class="sm:w-[40%] p-4 shadow text-center rounded hover:shadow-2xl">
                 <h4 class="font-bold text-[20px]">PAGAR ADMINISTRACION (JELPIT)</h4>
                 <p class="text-[15px] mb-[5%]">A través del siguiente enlace será dirigido a la página web de la jelpit
                     para el pago de la
@@ -62,7 +78,7 @@
                     target="_blank" class="py-1 px-3 text-white rounded-full bg-[#4C9EEB]">$ PAGAR ADMINISTRACION</a>
             </div>
 
-            <div class="w-[40%] p-4 shadow text-center border-2 border-[#4C9EEB] rounded hover:shadow-2xl">
+            <div class="sm:w-[40%] p-4 shadow text-center border-2 border-[#4C9EEB] rounded hover:shadow-2xl">
                 <h4 class="font-bold text-[20px]">¿¿ COMO PAGAR ??</h4>
                 <p class="text-[15px] mb-[5%]">El enlace brinda instrucciones claras para realizar un pago
                     satisfactorio, asegurando una experiencia sin complicaciones.</p>
@@ -75,8 +91,8 @@
 
         <div class="">
             <h5 class="font-bold text-center py-3 text-[2rem] text-[#4C9EEB]">PAGOS SERVICIOS HOGAR </h5>
-            <div class="flex justify-center gap-5">
-                <a href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/ventanilla-pagos/realizar-pago-facturadores?idConv=6348" target="_blank" class="w-[25%]">
+            <div class="flex flex-col sm:flex-row justify-center gap-5">
+                <a href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/ventanilla-pagos/realizar-pago-facturadores?idConv=6348" target="_blank" class="sm:w-[25%]">
                     <div class="p-2 rounded shadow-md hover:shadow-2xl border-2 border-[blue]">
                         <figure class="text-center text-[blue] text-[90px]"><i class="fa-solid fa-droplet"></i></i>
                         </figure>
@@ -84,7 +100,7 @@
                     </div>
                 </a>
 
-                <a href="https://caribemar.facture.co/Pagar#/List" target="_blank" class="w-[25%]">
+                <a href="https://caribemar.facture.co/Pagar#/List" target="_blank" class="sm:w-[25%]">
                     <div class="p-2 rounded shadow-md hover:shadow-2xl border-2 border-[yellow]">
                         <figure class="text-center text-[yellow] text-[90px]"><i class="fa-solid fa-lightbulb"></i></i>
                         </figure>
@@ -92,7 +108,7 @@
                     </div>
                 </a>
 
-                <a href="https://portal.gascaribe.com/payments" target="_blank" class="w-[25%]">
+                <a href="https://portal.gascaribe.com/payments" target="_blank" class="sm:w-[25%]">
                     <div class="p-2 rounded shadow-md hover:shadow-2xl border-2 border-[green]">
                         <figure class="text-center text-[green] text-[90px]"><i
                                 class="fa-solid fa-fire-flame-simple"></i></figure>
@@ -106,6 +122,7 @@
     <footer class="text-center text-white bg-[#4C9EEB] py-5 mt-[10%]">
         <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
     </footer>
+    <script src="../src/js/vendor/main.js"></script>
     <script src="https://kit.fontawesome.com/95f9104639.js" crossorigin="anonymous"></script>
 </body>
 

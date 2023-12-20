@@ -12,45 +12,52 @@
 <body>
 
     <header>
-        <nav class="flex items-center justify-around">
-            <img src="../static/logos/logo.png" alt="" class="w-[10%] p-2">
-            <ul id="dropdownmenu" class="flex">
-                <li class="relative w-auto hover:text-[#02519C]"><a href="../index.html"
-                        class="p-4 font-bold">INICIO</a></li>
-                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">CENTRO DE
-                        GESTION <i class="fa-solid fa-angle-down"></i></a>
-                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./comunidad.html">COMUNIDAD</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./convocatorias.html">CONVOCATORIAS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./zonapay.html">ZONA DE PAGOS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./documentos.html">SOLICITUDES</a></li>
-                    </ul>
-                </li>
+        <div class="flex items-center justify-between sm:justify-around p-4">
+            <img src="../static/logos/logo.png" alt="" class="w-[20%] p-2 sm:block lg:w-[10%]">
+            <nav class="sm:flex sm:relative absolute hidden right-0 top-0 h-screen sm:h-0 p-4 bg-[#2f2f2f] sm:bg-transparent">
 
-                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">SERVICIOS
-                        <i class="fa-solid fa-angle-down"></i></a>
-                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./emprendimientos.html">EMPRENDIMIENTOS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./transporte.html">TRANSPORTE</a></li>
-                    </ul>
-                </li>
+                <ul id="dropdownmenu" class="menu text-right flex-col sm:flex-row sm:flex">
+                    <a href="#" class="cerrar text-right sm:hidden"><i class="fa-solid fa-x"></i></a>
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] py-4 sm:p-0"><a href="../index.html"
+                            class="p-4 font-bold">INICIO</a></li>
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] group/drop mb-3"><a href="#" class="p-4 font-bold">CENTRO
+                            DE
+                            GESTION <i class="fa-solid fa-angle-down"></i></a>
+                        <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block">
+                            <li class="py-1 text-white sm:text-black  px-2 hover:text-[#02519C]"><a
+                                    href="../src/comunidad.html">COMUNIDAD</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/convocatorias.html">CONVOCATORIAS</a></li>
+                            <li class="py-1 text-bwhitepx-2 hover:text-[#02519C]"><a
+                                    href="../src/zonapay.html">ZONA DE PAGOS</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/documentos.html">SOLICITUDES</a></li>
+                        </ul>
+                    </li>
 
-                <li class="relative w-auto hover:text-[#02519C] group/drop"><a href="" class="p-4 font-bold">ACTIVIDADES
-                        <i class="fa-solid fa-angle-down"></i></a>
-                    <ul id="Submenu" class="absolute left-0 top-[35px] hidden group-hover/drop:block">
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./aerobicos.html">CLASES AEROBICAS</a></li>
-                        <li class="py-1 text-black font-bold bg-white text-center px-2 hover:text-[#02519C]"><a
-                                href="./futbol.html">FÚTBOL</a></li>
-                    </ul>
-                </li>
-        </nav>
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] group/drop mb-3"><a href="#"
+                            class="p-4 font-bold ">SERVICIOS <i class="fa-solid fa-angle-down"></i></a>
+                        <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block text-right">
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/emprendimientos.html">EMPRENDIMIENTOS</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/transporte.html">TRANSPORTE</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="text-white sm:text-black relative w-auto hover:text-[#02519C] group/drop mb-3"><a href="#"
+                            class="p-4 font-bold">ACTIVIDADES <i class="fa-solid fa-angle-down"></i></a>
+                        <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block text-right">
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/aerobicos.html">CLASES AEROBICAS</a></li>
+                            <li class="py-1 text-white sm:text-black px-2 hover:text-[#02519C]"><a
+                                    href="../src/futbol.html">FÚTBOL</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="abrir sm:hidden">Menu <i class="fa-solid fa-bars"></i></figure>
+        </div>
     </header>
 
     <section>
@@ -59,10 +66,10 @@
             </h5>
 
             <div>
-                <div class="flex mx-[10%]">
+                <div class="flex sm:mx-[10%]">
 
                     <div class="p-4 text-[1.3rem]">
-                        <img src="../static/paguinas/Equipo de futbol.jpg" alt="" class="float-left w-[50%] p-4">
+                        <img src="../static/paguinas/Equipo de futbol.jpg" alt="" class="float-left sm:w-[50%] p-4">
                         <p>¡Invitamos a todos los vecinos del conjunto flores de maría 2, a participar en los partidos
                             de fútbol que se realizarán los días martes y jueves a las 9:00 p.m. en la cancha sintética
                             del barrio <br>
@@ -102,6 +109,7 @@
     </footer>
     <!-- SCRIPT  -->
     <script src="https://kit.fontawesome.com/95f9104639.js" crossorigin="anonymous"></script>
+    <script src="../src/js/vendor/main.js"></script>
 </body>
 
 </html>
