@@ -3,7 +3,7 @@ export default[
         "casa":"CASA D26",
         "emprendimiento": "DECORACIONES DE EVENTOS",
         "instagram": "@mobel_oficial",
-        "celular":"300 397 9000",
+        "celular":"3003979000",
         "propietario":"Ma. Margarita Maestres",
         "foto":"../static/emprendimiento/imgmabel.jpg"
     },
@@ -11,7 +11,7 @@ export default[
         "casa":"CASA C05",
         "emprendimiento": "HIELO DONDE CAYO",
         "instagram": "",
-        "celular":"321 481 5775",
+        "celular":"3214815775",
         "propietario":"Jule Andrade",
         "foto":"../static/emprendimiento/cayohielo.jpg"
     },
@@ -19,7 +19,7 @@ export default[
         "casa":"CASA D53",
         "emprendimiento": "DEPILACION CON CERA",
         "instagram": "",
-        "celular":"310 356 0145",
+        "celular":"3103560145",
         "propietario":"Shaida Saud",
         "foto":"../static/emprendimiento/Depilacion Cera.jpg"
     },
@@ -27,7 +27,7 @@ export default[
         "casa":"CASA I05",
         "emprendimiento": "MICHELADAS HELADOS",
         "instagram": "",
-        "celular":"321 481 5775",
+        "celular":"3214815775",
         "propietario":"Jule Andrade",
         "foto":"../static/emprendimiento/micheladas.jpg"
     },
@@ -35,7 +35,7 @@ export default[
         "casa":"CASA B10",
         "emprendimiento": "PRODUCTOS FULL FRESH",
         "instagram": "",
-        "celular":"318 609 2791",
+        "celular":"3186092791",
         "propietario":"Gina Gutierrez",
         "foto":"../static/emprendimiento/full fresh.jpg"
     },
@@ -43,7 +43,7 @@ export default[
         "casa":"CASA D41",
         "emprendimiento": "DEDITOS LISTOS PARA FREIR",
         "instagram": "",
-        "celular":"301 6347668",
+        "celular":"3016347668",
         "propietario":"Yulihana Blanco",
         "foto":"https://www.mycolombianrecipes.com/wp-content/uploads/2012/09/Palitos-de-Queso-Blanco.jpg"
     },
@@ -51,7 +51,7 @@ export default[
         "casa":"CASA D42",
         "emprendimiento": "PAPELERÍA E IMPRESIONES",
         "instagram": "",
-        "celular":"318 341 2740",
+        "celular":"3183412740",
         "propietario":"Milena",
         "foto":"https://panafargo.com/wp-content/uploads/2022/09/papeleria-itagui-2-1024x1024.png"
     },
@@ -59,7 +59,7 @@ export default[
         "casa":"CASA C24",
         "emprendimiento": "AGUARDIENTE AMARILLO",
         "instagram": "",
-        "celular":"305 364 8529",
+        "celular":"3053648529",
         "propietario":"Diana Camacho",
         "foto":"https://img.asmedia.epimg.net/resizer/RlXmW-XztcJXqmdMIK6zgnZjywM=/1200x1200/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/YA5554VQ5NBRFGKW6SXVZDPD3A.jpeg"
     },
@@ -67,7 +67,7 @@ export default[
         "casa":"CASA E60",
         "emprendimiento": "PASAMANOS Y DIVISIONES DE BAÑO",
         "instagram": "",
-        "celular":"300 461 7950",
+        "celular":"3004617950",
         "propietario":"Carlos",
         "foto":"../static/emprendimiento/Pasa Manos.jpg"
     },
@@ -75,7 +75,7 @@ export default[
         "casa":"CASA C37",
         "emprendimiento": "VINO ARTESANAL",
         "instagram": "",
-        "celular":"301 570 2804",
+        "celular":"3015702804",
         "propietario":"Amilcar Daza",
         "foto":"../static/emprendimiento/Vino Artesanal.jpg"
     },
@@ -83,7 +83,7 @@ export default[
         "casa":"CASA D50",
         "emprendimiento": "CATÁLOGO DE LEONISA",
         "instagram": "",
-        "celular":"312 690 5194",
+        "celular":"3126905194",
         "propietario":"Maryori Quintero",
         "foto":"https://catalogos-leonisa.s3.amazonaws.com/multipanel/images/2023/11/07/uaovrtMb6TrbnjLPoJmoUOgMZJ7MVIxkzhbg9XuQ.jpeg"
     },
@@ -91,7 +91,7 @@ export default[
         "casa":"CASA ",
         "emprendimiento": "VINO SOLÓRZANO",
         "instagram": "",
-        "celular":"318 402 1254",
+        "celular":"3184021254",
         "propietario":"Elba Solórzano",
         "foto":"../static/emprendimiento/Vino Solorzano.jpg"
     },
@@ -99,7 +99,7 @@ export default[
         "casa":"CASA ",
         "emprendimiento": "PRODUCTOS FUXION",
         "instagram": "",
-        "celular":"320 506 2320 - 316 683 9066",
+        "celular":"3205062320",
         "propietario":"Eliana Rodríguez",
         "foto":"../static/emprendimiento/Productos Fuxion.jpeg  "
     },
@@ -107,7 +107,7 @@ export default[
         "casa":"CASA ",
         "emprendimiento": "HELADOS PUPYS",
         "instagram": "",
-        "celular":"322508 0143",
+        "celular":"3225080143",
         "propietario":"Ofelia Daza",
         "foto":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAdN8JRI-xiuTKmhWDe53hmpNYP2bprWY94wygekEDyw&s"
     },
@@ -115,7 +115,7 @@ export default[
         "casa":"CASA ",
         "emprendimiento": "SERVICIO TECNICO COMPUTADORES Y CELULARES",
         "instagram": "",
-        "celular":"304 6308298",
+        "celular":"3046308298",
         "propietario":"Carlos Aristizabal",
         "foto":"https://cryptoavisos.com/oc-content/uploads/87/33703.webp"
     },
@@ -123,7 +123,7 @@ export default[
         "casa":"Apto 308 bloque A",
         "emprendimiento": "PRODUCTOS AVON Y NATURA ENTREGA INMEDIATA",
         "instagram": "",
-        "celular":"304 6308298",
+        "celular":"3046308298",
         "propietario":"Diana Escorcia",
         "foto":"https://images.weare365.io/filters:format(.webp)/1920x0/co/full/bf7893ec41d060f082a65de31a0406bcd35f7787.jpg"
     },
@@ -131,7 +131,7 @@ export default[
         "casa":"CASA C17",
         "emprendimiento": "CATÁLOGO DE LEONISA Y FULLER",
         "instagram": "",
-        "celular":"316 5438877",
+        "celular":"3165438877",
         "propietario":"Dayana Fuentes",
         "foto":"https://catalogos-leonisa.s3.amazonaws.com/multipanel/images/2022/05/27/hXAOhMejUN4jW8EoXDbkahidAwugvow2KjuSxIok.jpeg"
     },
@@ -139,7 +139,7 @@ export default[
         "casa":"CASA C19",
         "emprendimiento": "BOLIS RYJ",
         "instagram": "",
-        "celular":"316 5438877",
+        "celular":"3165438877",
         "propietario":"Adelaida",
         "foto":"https://t2.uc.ltmcdn.com/es/posts/1/4/8/como_hacer_bolis_de_oreo_50841_orig.jpg"
     },

@@ -13,17 +13,18 @@ emprendimientos.map(emprendimiento => {
     const liInstagram = document.createElement('li')
     const liName = document.createElement('li')
     const liCelular = document.createElement('li')
-    const btnContact = document.createElement('button')
+    const btnContact = document.createElement('a')
     const iconBtn = document.createElement('button')
 
     h2Emprende.classList.add('font-bold', 'text-[1.5rem]', 'text-[#02519C]', 'text-center') 
     titleHouse.classList.add('text-center', 'font-bold', 'text-[1.5rem]', 'mb-[15px]', 'text-[#02519C]')
     container.classList.add('flex', 'flex-wrap', 'gap-5', 'justify-center')
     containerCard.classList.add('p-4', 'shadow-2xl', 'sm:w-[30%]', 'rounded')
-    btnContact.classList.add('bg-[#02519C]', 'py-2', 'px-3', 'text-white', 'text-center', 'w-[100%]')
+    btnContact.classList.add('bg-[#02519C]', 'py-2', 'px-3', 'text-white', 'text-center', 'block','w-[100%]')
     figureImg.classList.add('mt-[10px]', 'm-auto')
     img.classList.add('sm:w-[600px]', 'sm:h-[300px]')
 
+    btnContact.setAttribute('href', 'https://wa.me/57'+ emprendimiento.celular)
     btnContact.textContent = 'Contact'
     img.setAttribute('src', emprendimiento.foto)
     liInstagram.textContent = emprendimiento.instagram
