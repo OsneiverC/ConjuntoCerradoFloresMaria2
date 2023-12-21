@@ -614,10 +614,6 @@ video {
   float: left;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -798,6 +794,10 @@ video {
   gap: 1.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -883,10 +883,6 @@ video {
 
 .p-\[50px\] {
   padding: 50px;
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .px-2 {
@@ -1110,6 +1106,11 @@ video {
 .hover\:text-\[\#4c9eeb\]:hover {
   --tw-text-opacity: 1;
   color: rgb(76 158 235 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
