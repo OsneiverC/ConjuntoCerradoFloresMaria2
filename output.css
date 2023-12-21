@@ -610,10 +610,6 @@ video {
   top: 35px;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .float-left {
   float: left;
 }
@@ -760,6 +756,14 @@ video {
 
 .w-auto {
   width: auto;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\] {
+  width: 40;
 }
 
 .resize {
@@ -1169,6 +1173,10 @@ video {
     height: 0px;
   }
 
+  .sm\:h-\[300px\] {
+    height: 300px;
+  }
+
   .sm\:h-\[80vh\] {
     height: 80vh;
   }
@@ -1187,6 +1195,10 @@ video {
 
   .sm\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .sm\:w-\[600px\] {
+    width: 600px;
   }
 
   .sm\:flex-row {
