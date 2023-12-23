@@ -145,7 +145,7 @@ export default[
     },
     {
         "casa":"EXTERNO",
-        "emprendimiento": "QUESERA FLORES DE MARIA",
+        "emprendimiento": "QUESERA TOM Y JERRY",
         "instagram": "",
         "celular":"3128408284",
         "propietario":"",
