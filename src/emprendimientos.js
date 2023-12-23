@@ -143,4 +143,28 @@ export default[
         "propietario":"Adelaida",
         "foto":"https://t2.uc.ltmcdn.com/es/posts/1/4/8/como_hacer_bolis_de_oreo_50841_orig.jpg"
     },
+    {
+        "casa":"EXTERNO",
+        "emprendimiento": "QUESERA FLORES DE MARIA",
+        "instagram": "",
+        "celular":"3128408284",
+        "propietario":"",
+        "foto":""
+    },
+    {
+        "casa":"EXTERNO",
+        "emprendimiento": "MARKET TIENDA",
+        "instagram": "",
+        "celular":"3001340259",
+        "propietario":"",
+        "foto":""
+    },
+    {
+        "casa":"EXTERNO",
+        "emprendimiento": "CAMI #2 TIENDA",
+        "instagram": "",
+        "celular":"3136020601",
+        "propietario":"",
+        "foto":""
+    },
 ]
