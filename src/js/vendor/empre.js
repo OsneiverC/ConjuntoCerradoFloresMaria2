@@ -25,7 +25,7 @@ emprendimientos.map(emprendimiento => {
     img.classList.add('sm:w-[600px]', 'sm:h-[300px]')
 
     btnContact.setAttribute('href', 'https://wa.me/57'+ emprendimiento.celular)
-    btnContact.textContent = 'Contact'
+    btnContact.textContent = 'Contactar'
     img.setAttribute('src', emprendimiento.foto)
     liInstagram.textContent = emprendimiento.instagram
     liName.textContent = emprendimiento.propietario

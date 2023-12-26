@@ -40,6 +40,14 @@ export default[
         "foto":"../static/emprendimiento/full fresh.jpg"
     },
     {
+        "casa":"CASA I05",
+        "emprendimiento": "PSICOPEDAGOGICO Y TERAPÉUTICO",
+        "instagram": "",
+        "celular":"3225080143",
+        "propietario":"Jule Andrade",
+        "foto":"../static/emprendimiento/niños.jpg"
+    },
+    {
         "casa":"CASA D41",
         "emprendimiento": "DEDITOS LISTOS PARA FREIR",
         "instagram": "",
@@ -78,14 +86,6 @@ export default[
         "celular":"3015702804",
         "propietario":"Amilcar Daza",
         "foto":"../static/emprendimiento/Vino Artesanal.jpg"
-    },
-    {
-        "casa":"CASA D50",
-        "emprendimiento": "CATÁLOGO DE LEONISA",
-        "instagram": "",
-        "celular":"3126905194",
-        "propietario":"Maryori Quintero",
-        "foto":"https://catalogos-leonisa.s3.amazonaws.com/multipanel/images/2023/11/07/uaovrtMb6TrbnjLPoJmoUOgMZJ7MVIxkzhbg9XuQ.jpeg"
     },
     {
         "casa":"CASA ",
@@ -149,7 +149,7 @@ export default[
         "instagram": "",
         "celular":"3128408284",
         "propietario":"",
-        "foto":""
+        "foto":"../static/emprendimiento/quesera.jpg "
     },
     {
         "casa":"EXTERNO",
@@ -157,7 +157,7 @@ export default[
         "instagram": "",
         "celular":"3001340259",
         "propietario":"",
-        "foto":""
+        "foto":"../static/emprendimiento/market.jpg "
     },
     {
         "casa":"EXTERNO",
@@ -165,6 +165,6 @@ export default[
         "instagram": "",
         "celular":"3136020601",
         "propietario":"",
-        "foto":""
+        "foto":"../static/emprendimiento/cami.jpg "
     },
 ]
