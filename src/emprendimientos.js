@@ -40,7 +40,7 @@ export default[
         "foto":"../static/emprendimiento/full fresh.jpg"
     },
     {
-        "casa":"CASA I05",
+        "casa":"CASA E29",
         "emprendimiento": "PSICOPEDAGOGICO Y TERAPÉUTICO",
         "instagram": "",
         "celular":"3225080143",
@@ -104,7 +104,7 @@ export default[
         "foto":"../static/emprendimiento/Productos Fuxion.jpeg  "
     },
     {
-        "casa":"CASA ",
+        "casa":"CASA E29",
         "emprendimiento": "HELADOS PUPYS",
         "instagram": "",
         "celular":"3225080143",
