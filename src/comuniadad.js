@@ -18,7 +18,7 @@ export default[
         'foto':'../static/comunicados/nuevocontenedor.jpg'
     },
     {
-        'titulo':'<i class="fa-solid fa-leaf" style="color: #1ac725;"></i>  EN FLORES DE MARIA CUIDAMOS EL MEDIO HAMBIENTE  <i class="fa-solid fa-leaf" style="color: #1ac725;"></i>',
+        'titulo':'<i class="fa-solid fa-leaf" style="color: #1ac725;"></i>  EN FLORES DE MARIA CUIDAMOS EL MEDIO AMBIENTE  <i class="fa-solid fa-leaf" style="color: #1ac725;"></i>',
         'contenido': '<p class="sm:text-center">El shut provisional fue movido más atrás. Agradecemos depositar en orden la basura y en el horario establecido. <b> Hay un contenedor para depositar cartones, papeles, plástico, aluminio, hierro… que nos sirve para cuidar el medio ambiente y reciclar para recaudar$$$ e invertir en lo que necesite el conjunto (más plantas, bolsas…)</b></p>',
         'fecha':'22/Nov/2023',
         'foto':'../static/comunicados/basura.jpg'
