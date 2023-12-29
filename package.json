@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-image": "^40.2.0"
   }
 }
