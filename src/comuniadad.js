@@ -1,7 +1,7 @@
 export default[
     {
         'titulo':'<i class="fa-solid fa-user-shield" style="color: #ffdd00;"></i>  FUMIGACION AREAS COMUNES  <i class="fa-solid fa-user-shield" style="color: #ffdd00;"></i>',
-        'contenido':'<b>El día 28 del mes de diciembre</b> se hizo la respectiva fumigación para control de rastreros y voladores. utilizando insecticidas, desinfectantes, rodenticidas y gel de ultima generación, autorizados para uso en salud pública por el ministerio de la protección social y la OMS',
+        'contenido':'<b> El día 28 del mes de diciembre </b> se hizo la respectiva fumigación para control de rastreros y voladores. utilizando insecticidas, desinfectantes, rodenticidas y gel de última generación, autorizados para uso en salud pública por el ministerio de la protección social y la OMS',
         'fecha':'28/Dic/2023',
         'foto':'../static/comunicados/fumigacion.jpg'
     },
