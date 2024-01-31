@@ -1,5 +1,11 @@
 export default[
     {
+        'titulo':'<i class="fa-solid fa-futbol"></i>  CAMPEONATO MICRO FÚTBOL  <i class="fa-solid fa-futbol"></i>',
+        'contenido':'¡Estudiantes del CCMFM2! <br> Los invitamos a participar en una emocionante actividad deportiva. Organicen sus equipos, denles nombres originales y prepárense para vivir momentos geniales. ¡Los esperamos para disfrutar juntos de deporte y diversión!',
+        'fecha':'25/Ene/2024',
+        'foto':'../static/comunicados/futbol.jpg'
+    },
+    {
         'titulo':'<i class="fa-solid fa-user-shield" style="color: #ffdd00;"></i>  FUMIGACION AREAS COMUNES  <i class="fa-solid fa-user-shield" style="color: #ffdd00;"></i>',
         'contenido':'<b> El día 28 del mes de diciembre </b> se hizo la respectiva fumigación para control de rastreros y voladores. utilizando insecticidas, desinfectantes, rodenticidas y gel de última generación, autorizados para uso en salud pública por el ministerio de la protección social y la OMS',
         'fecha':'28/Dic/2023',
@@ -13,7 +19,7 @@ export default[
     },
     {
         'titulo':'<i class="fa-solid fa-star" style="color: #d4ff00"></i>  NUEVO CONTENEDOR  <i class="fa-solid fa-star" style="color: #d4ff00"></i>',
-        'contenido':'Tenemos otro contenedor para basura. Agradecemos depositar la basura en los contenedores y en los días establecidos. Usted debe llevar su basura los dias: <b>LUNES- MIÉRCOLES Y VIERNES. </b>',
+        'contenido':'Tenemos otro contenedor para basura. Agradecemos depositar la basura en los contenedores y en los días establecidos. Usted debe llevar su basura los Dias: <b>LUNES- MIÉRCOLES Y VIERNES. </b>',
         'fecha':'27/Dic/2023',
         'foto':'../static/comunicados/nuevocontenedor.jpg'
     },
